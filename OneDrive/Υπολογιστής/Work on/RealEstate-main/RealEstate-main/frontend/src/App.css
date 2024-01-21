@@ -1,0 +1,177 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f3f3f3;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.description {
+  flex-basis: 50%;
+}
+
+.image {
+  flex-basis: 50%;
+}
+
+.footer {
+  background-color: #f3f3f3;
+  padding: 10px;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%; 
+  max-height: 500px; 
+  display: block;  
+  margin: 0 auto; 
+  object-fit: contain; 
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  width: 300px; 
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.logout {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logout:hover {
+  background-color: #bd2130;
+}
+
+.listings-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.listing {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px; 
+}
+
+.listing h3 {
+  margin: 0;
+  color: #333;
+}
+
+.listing p {
+  margin: 5px 0;
+}
+
+.listing button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.listing button:hover {
+  opacity: 0.8;
+}
+
