@@ -62,13 +62,13 @@ function Navbar() {
         RealEstate
       </Link>
       <div>
-        <Link to="/login" className="login">
+        <Link to="/login" className="login-link">
           Login
         </Link>
-        <Link to="/signup" className="signup">
+        <Link to="/signup" className="signup-link">
           Sign Up
         </Link>
-        <Link to="/add-residencies" className="add-residencies">
+        <Link to="/add-residencies-link" className="add-residencies">
           Add Residencies
         </Link>
         <button onClick={handleLogout} className="logout">

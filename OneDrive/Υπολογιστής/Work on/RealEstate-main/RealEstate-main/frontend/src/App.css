@@ -3,6 +3,8 @@
   justify-content: space-between;
   padding: 10px;
   background-color: #f3f3f3;
+  margin : 0 auto;
+  align-items:flex-start;
 }
 
 .main-content {
@@ -81,13 +83,24 @@
   padding: 20px;
 }
 
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px; 
+}
+
 .form {
   width: 300px; 
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 4px;
   margin-top: 20px;
+  margin-bottom: 20px; 
 }
+
+
 
 .form h2 {
   text-align: center;
@@ -175,3 +188,16 @@
   opacity: 0.8;
 }
 
+.login {
+color: #333;
+align-items:flex-start;
+}
+
+.link {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+/* Optional: Remove margin from the last link */
+.link:last-child {
+  margin-right: 0;
+}
